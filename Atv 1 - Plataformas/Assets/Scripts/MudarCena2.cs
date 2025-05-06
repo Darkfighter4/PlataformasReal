@@ -9,7 +9,7 @@ public class MudarCena2 : MonoBehaviour
 
     private void LoadMainMenu()
     {
-        GameManager.Instance.LoadScene("MainMenu");
+       // GameManager.Instance.LoadScene("MainMenu");
     }
 }
 

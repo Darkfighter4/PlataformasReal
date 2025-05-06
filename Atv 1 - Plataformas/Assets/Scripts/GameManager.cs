@@ -18,8 +18,16 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    public void LoadScene(string sceneName)
+   // public void LoadScene(string sceneName)
+   // {
+   //     SceneManager.LoadScene(sceneName);
+   // }
+
+    public void LoadSceneAndGUI()
     {
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("GUI", LoadSceneMode.Additive);
     }
+
+
 }

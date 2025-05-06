@@ -9,7 +9,7 @@ public class MudarCena : MonoBehaviour
 
     private void LoadSplash()
     {
-        GameManager.Instance.LoadScene("Splash");
+       // GameManager.Instance.LoadScene("Splash");
     }
 }
 

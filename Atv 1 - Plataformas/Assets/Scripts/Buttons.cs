@@ -14,12 +14,14 @@ public class Buttons : MonoBehaviour
 
     private void StartGame()
     {
-        GameManager.Instance.LoadScene("Game");
+        //GameManager.Instance.LoadScene("Game");
+        //GameManager.Instance.LoadSceneAndGUI();
     }
 
     private void QuitGame()
     {
         Application.Quit();
     }
+    
 }
 
