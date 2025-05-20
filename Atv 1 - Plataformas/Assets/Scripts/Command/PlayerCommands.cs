@@ -62,7 +62,7 @@ public class MoveRight : ICommand
         player.moedas--;
         coin.SetActive(true);
         //lembrar de executar a função undo mais uma vez
-        
+        player.UndoLastCommand();
     }
 }
 

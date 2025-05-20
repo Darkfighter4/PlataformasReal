@@ -20,6 +20,6 @@ public class CommandManager
         if (commands.Count == 0) return;
         ICommand command = commands[^1];
         commands.RemoveAt(commands.Count - 1);
-        command.Do();
+        command.Undo();
     }
 }
