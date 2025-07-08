@@ -1,6 +1,6 @@
-using System.Collections.Generic;
+/*using System.Collections.Generic;
 
-public class CommandManager
+public partial class CommandManager
 {
     private List<ICommand> commands;
 
@@ -23,3 +23,4 @@ public class CommandManager
         command.Undo();
     }
 }
+*/

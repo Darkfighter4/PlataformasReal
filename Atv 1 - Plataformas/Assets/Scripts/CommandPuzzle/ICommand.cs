@@ -1,5 +1,6 @@
-public interface ICommandPuzzle
+public interface ICommand
 {
     void Do();
     void Undo();
 }
+

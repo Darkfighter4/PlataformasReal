@@ -1,4 +1,4 @@
-using UnityEditor;
+/*using UnityEditor;
 using UnityEngine;
 
 public class MoveUp : ICommand
@@ -65,5 +65,5 @@ public class MoveRight : ICommand
         player.UndoLastCommand();
     }
 }
-
+*/
 

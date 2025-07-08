@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1f3efa1ba39a7045b0d81fc7dcaab14, type: 3}
+  m_Name: EnemySO
+  m_EditorClassIdentifier: 
+  EnemyName: Chara
+  Health: 999
+  Damage: 999
+  Speed: 999
+  EnemySprite: {fileID: 6426338414204975675, guid: 07d0ca3c7aec96248bce95afe84fb505, type: 3}
+  animator: {fileID: 0}

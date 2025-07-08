@@ -1,5 +1,6 @@
-public partial interface ICommand
+/*public partial interface ICommand
 {
     void Do();
     void Undo();
 }
+*/
