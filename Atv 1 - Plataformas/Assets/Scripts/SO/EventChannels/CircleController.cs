@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CircleController : MonoBehaviour
 {
-    private SpriteRenderer _spriteRenderer;
+    public SpriteRenderer _spriteRenderer;
     
     [Header("Recebendo...")]
     public VoidEventChannel circleColorEvent;
