@@ -2173,6 +2173,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75f2bba92b129d44cb36782fe90b57cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 3023432477214412930, guid: 273bf6cec35c5af42b4c39ad02846060, type: 3}
+  speed: 5
   _spriteRenderer: {fileID: 0}
   circleColorEvent: {fileID: 11400000, guid: 7b9043df49671f8408b5ca5c6281e86a, type: 2}
   circleSpecificColorEvent: {fileID: 11400000, guid: bdf5fde4da7996e419c4ebf3e619df01, type: 2}
